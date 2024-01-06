@@ -1,0 +1,91 @@
+#main{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.822),rgba(31, 6, 6, 0.596),rgba(0, 0, 0, 0.726)), url(https://cdn.pixabay.com/photo/2019/12/08/21/32/bokeh-4682289_1280.jpg); */
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 100vw;
+
+}
+#rightUl{
+    font-weight: 200;
+    font-size: 17px;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+#rightUl li:hover{
+    text-decoration: orange underline 5px;
+    text-underline-offset:  100%;
+    
+}
+#rightUl li:nth-child(5){
+    text-decoration: none;
+
+}
+#login{
+     padding: 2px 25px;
+     border-radius: 16px;
+     border: solid 1px;
+     background: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+#login:hover{
+    background-color: rgb(173, 3, 3);
+}
+#login:active{
+    background-color: black;
+}
+.logo{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+@media (max-width:600px) {
+    #rightUl{
+
+        font-size: 15px;
+        gap: 15px;
+ 
+    }
+    #rightUl li:nth-child(2){
+      display: none;
+    
+    } 
+
+    #logotext{
+        font-size: 15;
+        font-weight: 100;
+    }
+    .logo{
+        height: 30px;
+        width: 30px;
+    }
+    #nav{
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #left{
+        gap: 10px;
+    }
+    #rightUl li:hover{
+        text-decoration: orange underline 2px;
+        
+    }
+    #login{
+       text-decoration: underline black 2px;
+    }
+    #rightUl li:nth-child(5){
+        text-decoration: none;
+
+        
+    }
+}

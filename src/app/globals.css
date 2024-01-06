@@ -1,27 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+    overflow: hidden;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#mainpage{
+    background:linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.815)), url(https://cdn.pixabay.com/photo/2021/02/24/20/53/abstract-6047465_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
+#bottom_btn{
+    border: solid 1px;
+    border-radius: 16px;
+    width: 150px;
+    justify-content: space-around;
+    padding: 5px;
+}
+#mid_div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+}
+@media (max-width:600px) {
+    #pragraph-text{
+
+    }
+    #mid-section{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+#arrow{
+    animation: arrow 4s infinite;
+}
+@keyframes arrow{
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(2turn);
+    }
 }

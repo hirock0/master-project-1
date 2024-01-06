@@ -1,0 +1,11 @@
+#main{
+    height: 100vh;
+   
+}
+#finalul{
+    height: 100%;
+    overflow-y: scroll;
+}
+#finalul::-webkit-scrollbar{
+    display: none;
+}

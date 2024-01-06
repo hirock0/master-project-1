@@ -1,0 +1,12 @@
+#leftarrow{
+    rotate: 180deg;
+    
+    
+    }
+    #loginDiv{
+        background: url(https://cdn.pixabay.com/photo/2016/08/05/07/17/laptop-1571702_1280.jpg);
+    }
+    #loginpalate{
+        border: solid 1px rgb(156, 156, 156);
+        box-shadow: 0 0 8px rgb(0, 0, 0);
+    }
